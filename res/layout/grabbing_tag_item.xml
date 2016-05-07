@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp"
+    android:clickable="true"
+     >
+
+    <ImageView
+        android:duplicateParentState="true"
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/c_empty"
+        android:src="@drawable/input_bg_selector" />
+
+    <TextView
+        android:id="@+id/gap"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/grabbing_item_color_selector"
+        android:text="@string/c_empty" />
+
+    <TextView
+        android:duplicateParentState="true"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+</LinearLayout>

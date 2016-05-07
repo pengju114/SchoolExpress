@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bar_background">#4ab2be</color>
+    <color name="main_content_background">#fff</color>
+    <color name="main_bar_text_color">#fff</color>
+    <color name="main_bar_text_focus_color">#66ffffff</color>
+    <color name="main_content_text_color">#4ab2be</color>
+    <color name="tab_bar_background_color">#166282</color>
+</resources>

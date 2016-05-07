@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <!-- Variant of the material (light) theme that has no title bar and translucent
+         system decor.  This theme sets {@link android.R.attr#windowTranslucentStatus} and
+         {@link android.R.attr#windowTranslucentNavigation} to true. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="input">
+        <item name="android:background">@drawable/input_bg_selector</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">#00b6d1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#b8b5b5</item>
+    </style>
+    
+    <style name="TabItem">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
